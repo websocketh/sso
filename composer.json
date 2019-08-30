@@ -1,0 +1,24 @@
+{
+    "name": "patpat/sso",
+    "description": "",
+    "keywords": [
+        ""
+    ],
+    "homepage": "https://www.patpat.com",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Huang",
+            "email": "gan.huang@patpat.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "PatPat\\Sso\\": "src/"
+        }
+    }
+}
