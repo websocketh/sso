@@ -1,5 +1,5 @@
 {
-    "name": "patpat/sso",
+    "name": "per/sso",
     "description": "",
     "keywords": [
         ""
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PatPat\\Sso\\": "src/"
+            "Per\\Sso\\": "src/"
         }
     }
 }
