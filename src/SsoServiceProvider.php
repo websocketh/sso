@@ -1,6 +1,6 @@
 <?php
 
-namespace PatPat\Sso;
+namespace Per\Sso;
 
 use Illuminate\Support\ServiceProvider;
 

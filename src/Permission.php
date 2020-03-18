@@ -7,7 +7,7 @@
  * Description
  */
 
-namespace PatPat\Sso;
+namespace Per\Sso;
 
 use Illuminate\Routing\Route;
 class Permission

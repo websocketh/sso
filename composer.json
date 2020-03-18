@@ -1,24 +1,39 @@
 {
     "name": "per/sso",
-    "description": "",
+    "description": "laravel sso",
     "keywords": [
-        ""
+        "laravel sso"
     ],
     "homepage": "https://www.patpat.com",
     "type": "package",
     "license": "MIT",
     "authors": [
         {
-            "name": "Huang",
+            "name": "",
             "email": "gan.huang@patpat.com"
         }
     ],
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=7.0.0",
+        "laravel/framework": ">=5.5"
+    },
+    "require-dev": {
+        "laravel/laravel": ">=5.5"
     },
     "autoload": {
         "psr-4": {
             "Per\\Sso\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Per\\Sso\\SsoServiceProvider"
+            ],
+            "aliases": {
+                "Sso": "Per\\Sso\\Facades\\Sso"
+            }
+
         }
     }
 }
