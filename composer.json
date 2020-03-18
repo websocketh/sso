@@ -15,10 +15,10 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "laravel/framework": ">=5.5"
+        "laravel/framework": ">=5.2.*"
     },
     "require-dev": {
-        "laravel/laravel": ">=5.5"
+        "laravel/laravel": ">=5.2.*"
     },
     "autoload": {
         "psr-4": {
